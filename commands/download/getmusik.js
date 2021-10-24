@@ -6,7 +6,8 @@ let fetch = require('node-fetch')
 
 module.exports = {
 
-name: ["getmusic"],
+name: "getmusic",
+command: ["getmusic","getmusik"],
 type: ["download"],
 useLimit: true,
 description: "Download and searching music dri YouTube",

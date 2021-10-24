@@ -11,9 +11,9 @@
 </p>
 </div>
 
+```TERMUX EDITION```
 
 Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
-
 ### Enjoy the Script ;)
 
 # 👥My Team [`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)

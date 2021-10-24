@@ -24,6 +24,7 @@ Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wa
 * [`Ivan`](https://github.com/ivan-MLN)
 * [`Sanz (Dev)`](https://github.com/sanzgantengz)
 * [`Rizky (Dev)`](https://github.com/Rizxyu)
+* [`Kotz (Dev)`](https://github.com/Kotzyy)
 * [`Arifi Razzaq`](https://github.com/Arifirazzaq2001)
 * [`Oreki (Kanjut)`](https://github.com/Oreki-san)
 * [`ＲｉｘｌｅＢoｔ (bot whatsapp)`](https://wa.me/62823283033323)

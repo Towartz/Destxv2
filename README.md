@@ -1,4 +1,6 @@
 
+# TERMUX-EDITION
+
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/77143046/138551494-7413ad80-158b-42b8-b301-a421d97d2326.jpg" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
@@ -11,8 +13,6 @@
 <p align="center">
 </p>
 </div>
-
-# TERMUX-EDITION
 
 
 

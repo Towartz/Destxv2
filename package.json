@@ -28,6 +28,7 @@
     "request-promise-native": "^1.0.9",
     "serve-index": "^1.9.1",
     "spinnies": "^0.5.1",
+    "moment-timezone": "^0.5.33",
     "ssl-express-www": "^3.0.8",
     "syntax-error": "^1.4.0",
     "url": "^0.11.0",

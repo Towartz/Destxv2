@@ -2,7 +2,7 @@
   "name": "Rixle-botV2",
   "version": "1.0.0",
   "description": "ya ndak tau",
-  "main": "index.js",
+  "main": "start.js",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.48.0",
@@ -34,7 +34,7 @@
     "yt-search": "^2.10.1",
     "nhentai-node-api": "^1.1.2",
     "image-to-pdf": "^1.0.0",
-    "request": "^2.88.2",
+    "request": "^2.88.2",,
   },
   "scripts": {
     "test": "/menu"

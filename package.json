@@ -35,10 +35,10 @@
     "nhentai-node-api": "^1.1.2",
     "image-to-pdf": "^1.0.0",
     "request": "^2.88.2",
-    "qrcode": "^1.4.4",
+    "qrcode": "^1.4.4"
   },
   "scripts": {
-    "test": "/menu"
+    "test": "/menu",
     "start": "node index.js"
   },
   "keywords": [

@@ -138,46 +138,6 @@ async custom(imageUrl, top, bottom) {
 }
 
 
-async plugins() {
-var pluginFolder = this['path'].join(__dirname, '../commands');
-var pluginFilter = filename => /\.js$/.test(filename);
- global.plugins = {}
-for (var filename of this['fs'].readdirSync(pluginFolder).filter(pluginFilter)) {
-try {
-global.plugins[filename] = require(this['path'].join(pluginFolder, filename));
-} catch (e) {
-conn.logger.error(e);
-delete global.plugins[filename];
-}
-}
-console.log(Object.keys(global.plugins));
-global.reload = (_event, filename) => {
-if (pluginFilter(filename)) {
-var dir = this['path'].join(pluginFolder, filename);
-if (dir in require.cache) {
-delete require.cache[dir];
-console.log(`now '${filename}' is update`);
-if (this['fs'].existsSync(dir));
-else {
-conn.logger.warn(`deleted plugin '${filename}'`);
-return delete global.plugins[filename];
-}
-} else conn.logger.info(`requiring new plugin '${filename}'`);
-var err = this.syntaxerror(this['fs'].readFileSync(dir), filename);
-if (err) conn.logger.error(`syntax error while loading '${filename}'\n${err}`);
-else try {
-global.plugins[filename] = require(dir);
-} catch (e) {
-conn.logger.error(e);
-} finally {
-global.plugins = Object.fromEntries(Object.entries(global.plugins).sort(([a], [b]) => a.localeCompare(b)));
-}
-}
-} 
-Object.freeze(global.reload);
-this['fs'].watch(this['path'].join(__dirname, '../commands'), global.reload);
-}
-
 parseRegex(string) {
 return string.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
 }

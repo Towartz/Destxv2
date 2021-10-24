@@ -12,17 +12,7 @@
 </div>
 
 
-# Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-# 📦 BuildPack
-* [`ffmpeg`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest)
-* [`imagemagick`](https://github.com/rocketmobile/heroku-buildpack-imagemagick)
-* [`puppeteer`](https://github.com/jontewks/puppeteer-heroku-buildpack)
-
-
 Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
-
-### example commands in folder commands/example
 
 ### Enjoy the Script ;)
 

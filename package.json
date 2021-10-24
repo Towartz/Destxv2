@@ -1,8 +1,8 @@
 {
-  "name": "selp",
+  "name": "Rixle-botV2",
   "version": "1.0.0",
   "description": "ya ndak tau",
-  "main": "start.js",
+  "main": "index.js",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.48.0",

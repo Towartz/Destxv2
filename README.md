@@ -19,13 +19,13 @@
 Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
 ### Enjoy the Script ;)
 
-# 👥My Team [`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
+# 👥[`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
 * [`Fauzan (Dev)`](https://github.com/FzNMYBot)
-* [`Ivan`](https://github.com/ivan-MLN)
 * [`Sanz (Dev)`](https://github.com/sanzgantengz)
 * [`Rizky (Dev)`](https://github.com/Rizxyu)
 * [`Kotz (Dev)`](https://github.com/Kotzyy)
 * [`Arifi Razzaq`](https://github.com/Arifirazzaq2001)
 * [`Oreki (Kanjut)`](https://github.com/Oreki-san)
+* [`Ivan`](https://github.com/ivan-MLN)
 * [`ＲｉｘｌｅＢoｔ (bot whatsapp)`](https://wa.me/62823283033323)
 

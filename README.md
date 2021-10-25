@@ -20,7 +20,14 @@ Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wa
 
 
 # ONLY RAILWAY/RDP/VPS/NODEJS/LINUX
-[`link`](https://github.com/Rizxyu/Rixle-bot)
+[`Click This T Original Rixle Bot`](https://github.com/Rizxyu/Rixle-bot)
+
+
+
+
+
+
+
 
 # 👥[`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
 * [`Fauzan (Dev)`](https://github.com/FzNMYBot)

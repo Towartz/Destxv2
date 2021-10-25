@@ -16,7 +16,7 @@
 
  
 
-Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
+Edit the required value in [`config.js`](https://github.com/Fau-Zan/Rixle-botV2/blob/main/config.js)
 
 
 ```ONLY RAILWAY/RDP/VPS/NODEJS/LINUX```

@@ -19,6 +19,9 @@
 Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
 ### Enjoy the Script ;)
 
+# ONLY RAILWAY/RDP/VPS/NODEJS/LINUX
+[`link`](https://github.com/Rizxyu/Rixle-bot)
+
 # 👥[`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
 * [`Fauzan (Dev)`](https://github.com/FzNMYBot)
 * [`Sanz (Dev)`](https://github.com/sanzgantengz)

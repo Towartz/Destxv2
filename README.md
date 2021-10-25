@@ -1,4 +1,4 @@
-E
+
 # TERMUX|RAILWAY EDITION
 
 <p align="center">
@@ -23,7 +23,8 @@ Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wa
 [`Click This To Original Rixle Bot`](https://github.com/Rizxyu/Rixle-bot)
 
 
-* [`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
+
+# 👥[`Fear Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
 * [`Fauzan (Dev)`](https://github.com/FzNMYBot)
 * [`Sanz (Dev)`](https://github.com/sanzgantengz)
 * [`Rizky (Dev)`](https://github.com/Rizxyu)

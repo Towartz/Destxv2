@@ -15,7 +15,7 @@ utilisation: userbot.prefix + "getmusic <query>",
 
 async execute(m) {
   
-let { conn, args, caption } = data
+let { conn, args } = data
 if (!m.quoted.caption) return m.reply ('tolong reply hasil data yang di kirim oleh bot')
 if (!args[0]) return m.reply("id or angka?")
 let hasilSplit = m.quoted.caption.split("(#)")[`${args[0]}`]

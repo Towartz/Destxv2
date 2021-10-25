@@ -14,7 +14,7 @@
 </p>
 </div>
 
-
+ 
 
 Edit the required value in [`config.js`](https://github.com/FznMyBOT/FearTeam-Wabot/blob/main/config.js)
 ### Enjoy the Script ;)

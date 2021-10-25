@@ -31,7 +31,7 @@ const GetLink = async (u) => {
 					}
 module.exports = {
 name: "zippyshare",
-command: ["zippy", "zippydl"],
+command: ["zippydl"],
 type: ["download"],
 description: "download zippyshare file",
 utilisation: userbot.prefix + "zippyshare",

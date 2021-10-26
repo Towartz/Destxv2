@@ -1,5 +1,6 @@
 userbot = {
  owner: [
+  "6283102176419",
   "6282298069899", 
   "62822980698995",
   "6281325994066"
@@ -8,7 +9,7 @@ userbot = {
    wait: "tunggu sedang di proses...",
    error: "errorr!!"
    },
-   prefix: ["#"],
+   prefix: [","],
     setting: {
     admin: "only admin",
     group: "only group",

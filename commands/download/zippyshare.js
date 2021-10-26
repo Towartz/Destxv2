@@ -1,8 +1,8 @@
 const { Mimetype } = require(baileys)
 const _$ = require('cheerio')
 const _url = require('url')
-const _axios = require('axios')
-const _math = require('mathjs')
+const _axios = require('axios') 
+const _math = require('mathjs') 
 const GetLink = async (u) => {
         console.log('⏳  ' + `Get Page From : ${u}`)
 						const zippy = await _axios({ method: 'GET', url: u }).then(res => res.data).catch(err => false)
@@ -29,27 +29,26 @@ const GetLink = async (u) => {
 						console.log('✅  ' + 'Done')
 						return { error: false, url: dlurl, name: filename }
 					}
+
 module.exports = {
-name: "zippyshare",
+name: "zippy_download",
 command: ["zippydl"],
-type: ["download"],
-description: "download zippyshare file",
-utilisation: userbot.prefix + "zippyshare",
-execute: async(m, {conn, text}) => {
-if (!text) return m.reply('Mohon isi parameter url\n\nContoh : _'+userbot.prefix+'zippy https://www17.zippyshare.com/v/ZLbrdeY6/file.html_')
-if (!text.includes('zippyshare.com')) return m.reply('Url Bukan zippy!')
-console.log(text)
+type: ['download'],
+description: "download zippyshare",
+utilisation: global.userbot.prefix+ "zippyshare" + " link",
+execute: async(m) => {
+const { conn, text } = data
+if (!text) return m.reply("masukkan link")
+if (!text.includes("zippyshare")) return m.reply("link tidak valid")
 const getLink_zippy = await GetLink(text)
 if(getLink_zippy.error) return m.reply(`ERROR!\n\nErr : ${getLink_zippy.message}`)
 try {
-console.log('Download & Uploading to Whatsapp...')
-await conn.sendMessage(m.chat, { url: getLink_zippy.url }, mediaType.document, { mimetype: Mimetype.mp4, filename: getLink_zippy.name })
+name = getLink_zippy.name.split(".")
+nama = name[name.length -1]
+conn.sendFile(m.chat, getLink_zippy.url, "", "", m, false, { filename: getLink_zippy.name, mimetype: nama == "mp4" ? Mimetype.mp4 : nama == "pdf" ? Mimetype.pdf : nama})
 } catch (err) {
 conn.sendMessage(m.chat, `Gagal mengirim file\nMungkin size file melebihi limit Whatsapp`)
 console.log(err)
 }
 }
 }
-
-
-					

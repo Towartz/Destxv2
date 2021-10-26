@@ -33,4 +33,6 @@ Edit the required value in [`config.js`](https://github.com/Fau-Zan/Rixle-botV2/
 * [`Oreki (Kanjut)`](https://github.com/Oreki-san)
 * [`Ivan`](https://github.com/ivan-MLN)
 * [`ＲｉｘｌｅＢoｔ (bot whatsapp)`](https://wa.me/62823283033323)
+* [`Towartz (Dev)`](https://github.com/Towartz)
+
 
